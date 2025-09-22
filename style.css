@@ -186,3 +186,37 @@ body {
     font-size: large;
     margin-top: 75px;
 }
+
+@media screen and (max-width: 900px) {
+    .todo {
+        height: 50%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .todoHeading {
+        font-size: 30px;
+    }
+
+    .todoTaskList li p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .todo {
+        height: 40%;
+        width: 80%;
+    }
+    .todoTask{
+        gap: 5px;
+    }
+    .todoHeading {
+        font-size: 30px;
+    }
+
+    .todoTaskList li p {
+        font-size: 10px;
+    }
+}
