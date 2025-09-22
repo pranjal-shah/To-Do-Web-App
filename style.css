@@ -206,7 +206,7 @@ body {
 
 @media screen and (max-width: 450px) {
     .todo {
-        height: 40%;
+        height: 50%;
         width: 80%;
     }
     .todoTask{
