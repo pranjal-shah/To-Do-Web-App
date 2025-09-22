@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-1CmrxMRARb6a8v5z4QFfDOM6d8z4p" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDO-List</title>
+</head>
+<body>
+    <section class="todo">
+        <h1 class="todoHeading">TO-DO LIST</h1>
+
+        <div class="todoInput">
+            <input type="text" class="inputField" id="inputFieldId" placeholder="Add a new task...">
+            <button id="addButton">ADD</button>
+        </div>
+
+        <hr class="hrLine">
+
+        <ul class="todoTaskList">
+
+        </ul>
+
+        <hr class="hrLine">
+        
+        <div class="countContainer">
+            <p><span id="count">10</span> ITEMS</p>
+            <button id="deleteAll">DELETE ALL</button>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
